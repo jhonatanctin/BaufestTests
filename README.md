@@ -30,11 +30,14 @@ header
 infoUserUI
 request
 
-6. On header folder right click and add a new file with the name 'headersAddPet.json'
+6. On header folder right click and add a new file with the name 'headersAddPet.json'.
 Copy the info contains in this GitHub reposotory karate/src/test/java/header/headersAddPet.json
 
-8.  On request folder right click and add a new file with the name 'requestAddPet.json'
+8.  On request folder right click and add a new file with the name 'requestAddPet.json'.
 Copy the info contains in this GitHub reposotory karate/src/test/java/request/requestAddPet.json
 
+9.  On infoUserUI folder right click and add a new file with the name 'userInfo.json'.
+Copy the info contains in this GitHub reposotory karate/src/test/java/request/userInfo.json
 
+10. 
 
