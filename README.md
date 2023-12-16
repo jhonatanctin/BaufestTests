@@ -21,9 +21,9 @@ karate-apache
 karate-junit5
 cucumber-reporting
 Note: make sure to add before the <dependencies></dependencies> tag.
-If see error in <project> tag please change http to https in the urls 
+If see one error in <project> tag please change http to https in the urls 
 For last please review that dependencies it was added in Maeven dependencies section from package explorer
-
+Please review the file pom.xml from karate folder
 
 5. Right click on src/test/java and create the next folders:
 header
@@ -31,5 +31,10 @@ infoUserUI
 request
 
 6. On header folder right click and add a new file with the name 'headersAddPet.json'
+Copy the info contains in this GitHub reposotory karate/src/test/java/header/headersAddPet.json
 
-7.  On request folder right click and add a new file with the name 'requestAddPet.json'
+8.  On request folder right click and add a new file with the name 'requestAddPet.json'
+Copy the info contains in this GitHub reposotory karate/src/test/java/request/requestAddPet.json
+
+
+
