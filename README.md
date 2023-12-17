@@ -7,9 +7,11 @@ VM Java
 Make sure to check the options:
 Create a simple project
 Use deault workspace location
+
 2. In the artifact window fill the next inputs for artifact section
 Gruop Id *example: Baufest
 Artifact Id *example: karateTests
+
 3. Click on Finish button
 
 Note: Wait to the create project process finish
@@ -31,13 +33,18 @@ infoUserUI
 request
 
 6. On header folder right click and add a new file with the name 'headersAddPet.json'.
-Copy the info contains in this GitHub reposotory karate/src/test/java/header/headersAddPet.json
+Copy the info contains in this GitHub repository karate/src/test/java/header/headersAddPet.json
 
 8.  On request folder right click and add a new file with the name 'requestAddPet.json'.
-Copy the info contains in this GitHub reposotory karate/src/test/java/request/requestAddPet.json
+Copy the info contains in this GitHub repository karate/src/test/java/request/requestAddPet.json
 
 9.  On infoUserUI folder right click and add a new file with the name 'userInfo.json'.
-Copy the info contains in this GitHub reposotory karate/src/test/java/request/userInfo.json
+Copy the info contains in this GitHub repository karate/src/test/java/infoUserUI/userInfo.json
 
-10. 
+10.  On request folder right click and add a new file with the name 'requestPutPet.json'.
+Copy the info contains in this GitHub repository karate/src/test/java/request/requestPutPet.json
+
+11. Right click on src/test/java and create the next files: AddANewPet.feature , AddNewUserUI.feature , GetInfoPet.feature , UpdatePet.feature and TestRunner.class . Copy their corresponding info for each file in this GitHub repository src/test/java .
+    
+12. For run the features, from TestRunner.java 
 
