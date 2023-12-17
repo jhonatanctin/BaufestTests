@@ -44,7 +44,14 @@ Copy the info contains in this GitHub repository karate/src/test/java/infoUserUI
 10.  On request folder right click and add a new file with the name 'requestPutPet.json'.
 Copy the info contains in this GitHub repository karate/src/test/java/request/requestPutPet.json
 
-11. Right click on src/test/java and create the next files: AddANewPet.feature , AddNewUserUI.feature , GetInfoPet.feature , UpdatePet.feature and TestRunner.class . Copy their corresponding info for each file in this GitHub repository src/test/java .
+11. Right click on src/test/java and create the next files: AddANewPet.feature , AddNewUserUI.feature , GetInfoPet.feature , UpdatePet.feature and TestRunner.java . Copy their corresponding info for each file in this GitHub repository src/test/java .
     
-12. For run the features, from TestRunner.java 
+12. For run the features, in TestRunner.java with select run as with JUnit Test
+
+Please consider the next points if see some errors:
+A. In line 5 in AddNewUserUI.feature  file from src/test/java please select the browser installed in your system and change the port
+Example: * configure driver = { type: 'chrome', port:52437 }
+B. Please update the values for user and pwd parameters from karate/src/test/java/infoUserUI/userInfo.json file when execute. 
+
+
 
