@@ -2,7 +2,7 @@ Feature: Test cases UI
 
   Background: 
     * configure ssl = true
-    * configure driver = { type: 'geckodriver', port:35627}
+    * configure driver = { type: 'chrome', port:52437 }
     * def infoUser = read("classpath:infoUserUI/userInfo.json")
 
   Scenario: Create new user
@@ -32,6 +32,7 @@ Feature: Test cases UI
 
   Scenario: Add laptop to the cart
     Given driver 'https://www.demoblaze.com/index.html'
+    And driver.maximize()
     And waitFor('{a}Log in').click()
     * delay(3000)
     And input('#loginusername',infoUser.user)
@@ -41,8 +42,8 @@ Feature: Test cases UI
     * def linkUserExists = waitFor('#nameofuser')
     * if (!linkUserExists) karate.fail('link with User name does not exists')
     And waitFor('{a}Laptops').click()
-    And waitFor('{a}Sony vaio i5').click()
     * def texItem = text('{a}Sony vaio i5')
+    And waitFor('{a}Sony vaio i5').click()
     And waitFor('{a}Add to cart').click()
     * delay(5000)
     * match driver.dialogText == 'Product added.'
